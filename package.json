@@ -1,0 +1,16 @@
+{
+  "name": "ml-sandbox",
+  "version": "1.0.0",
+  "description": "playing with machine learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register"
+  },
+  "author": "Harry Hope",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "coffee-script": "^1.10.0",
+    "mocha": "^3.0.2"
+  }
+}
