@@ -9,7 +9,7 @@ sum = (thetas, set, hypothesis) ->
     if y is 1
       curr = Math.log(hypothesis(xs))
     else
-      curr = Math.log(1 -hypothesis(xs))
+      curr = Math.log(1 - hypothesis(xs))
     prev - curr
   , 0
 
