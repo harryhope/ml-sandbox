@@ -4,14 +4,14 @@
   "description": "playing with machine learning",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers coffee:coffee-script/register"
+    "test": "mocha --require coffeescript/register 'test/**/*.coffee'"
   },
   "author": "Harry Hope",
   "license": "MIT",
   "dependencies": {
     "chai": "^3.5.0",
-    "coffee-script": "^1.10.0",
-    "lodash": "^4.15.0",
-    "mocha": "^3.0.2"
+    "coffeescript": "^2.3.1",
+    "lodash": "^4.17.10",
+    "mocha": "^5.2.0"
   }
 }
