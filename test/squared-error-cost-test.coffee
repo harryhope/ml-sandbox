@@ -1,5 +1,5 @@
-{expect} = require 'chai'
 _ = require 'lodash'
+{expect} = require 'chai'
 cost = require '../lib/squared-error-cost'
 costMulti = require '../lib/squared-error-cost-multi'
 
